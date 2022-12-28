@@ -69,6 +69,6 @@ crossSet = secondSet.intersection(fyrstSet)
 arrayCross = list(crossSet)
 
 if arrayCross == []:
-    print('Не получилось, ту так ты числа побольше вводи))))')
+    print('А числа присутствующие в обоих массивах отсутствуют')
 else:
-    print('числа присутствующие в обоих массивах: ', ArraySort(arrayCross))
+    print('Числа присутствующие в обоих массивах: ', ArraySort(arrayCross))
