@@ -70,12 +70,8 @@ def maxPluck(m):
 
 
 numBush = EnterNumber(input('Введите колличество кустов: '))
-ghg = ArrayGererator(numBush)
-print(ghg)
+bush = ArrayGererator(numBush)
+print(bush)
 
-# r = list(ghg.keys())
-# print(r)
-
-
-print(maxPluck(ghg))
+print('Максимальное колличество ягод собранные за один раз', maxPluck(bush))
 
